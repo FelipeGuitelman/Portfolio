@@ -1,9 +1,11 @@
 import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import LandingPage from './components/Landing' 
+import Inicio from './componentes/Inicio'
+import Proyectos from './componentes/Proyectos'
 import Home from './components/Home' 
-import PokemonCreate from './components/PokemonCreate';
-import Detail from './components/Detail';
+import Projects from './components/Projects' 
+
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path= '/' component = {LandingPage}/>
-        <Route path = '/home/:id' component = {Detail}/>
-        <Route path = '/home' component = {Home}/>
-        <Route path = '/pokemons' component = {PokemonCreate}/>
+        <Route path = '/proyectos' component = {Proyectos}/>
+        <Route path = '/español' component = {Inicio}/>
+        <Route path = '/projects' component = {Projects}/>
+        <Route path = '/english' component = {Home}/>
       </Switch>
     </div>
     </BrowserRouter>
