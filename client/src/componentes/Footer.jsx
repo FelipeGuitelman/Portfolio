@@ -8,6 +8,9 @@ import image3 from '../images/gm.png'
 export default function Footer() {
   return (
     <div style={{
+      position: 'fixed',
+      width: '100%',
+      alignContent: 'center',
       alingText: 'center',
       justifyText: 'center',
       bottom: '0',

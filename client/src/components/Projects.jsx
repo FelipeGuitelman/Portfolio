@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from 'react'
-import Navbar from '../componentes/Navbar'
+import Navbar from '../components/Navbar'
 import Footer from '../componentes/Footer'
 import poke from '../images/poke.png'
 import code from '../images/code.png'
@@ -9,7 +9,7 @@ import "./Proyectos.css"
 
 export default function Projects() {
   return (
-    <div style={{overflow: 'hidden'}}>
+    <div style={{ overflow: 'hidden' }}>
       <Navbar />
       <div style={{
         display: 'flex',
@@ -41,7 +41,7 @@ export default function Projects() {
                 borderRadius: '5%'
               }} />
             <p style={{ fontSize: '20px', marginLeft: '40px', marginRight: '40px' }}>
-              En este proyecto apliqué todas las tecnologías aprendidas en el curso. Creando una base de datos en PostgreSQL para almacenar y gestionar nuevos recursos y al mismo tiempo tayendo información desde una API externa.
+              In this project I applied all the technologies learned in the bootcamp. Creating a PostgreSQL database to store and manage new resources and at the same time fetching information from an external API.
             </p>
           </a>
         </div>
@@ -65,12 +65,12 @@ export default function Projects() {
                 transition: 'all 300ms',
               }} />
             <p style={{ fontSize: '20px', marginLeft: '40px', marginRight: '40px' }}>
-              Este es un proyecto grupal donde aprendimos a trabajar en equipo con metodologia agile SCRUM y ademas de aplicar los conocimientos adquiridos durante el curso, pudimos aprender a utilizar nuevas tecnologia y librerias.
+              This is a group project where we learned to work as a team with agile SCRUM methodology and in addition to applying the knowledge acquired during the course, we were able to learn to use new technology and libraries.
             </p>
           </a>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
